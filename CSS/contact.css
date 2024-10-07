@@ -1,0 +1,39 @@
+body, html {
+    background-color: #e9efec;
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*nav bar*/
+.nav {
+    padding-bottom: 20px; /*spatie onder nav bar*/
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #c4dad2;
+    text-align: center;
+}
+a {
+    color: #16423c;
+    text-decoration: none;
+}
+li {
+    display: inline;
+    margin: 15px;
+    padding: 0px;
+}
+li.nav_act {
+    margin: 0px;
+    padding: 15px;
+    background-color: #6a9c89;
+}
+li.nav_hover:hover {
+    margin: 0px;
+    padding: 15px;
+    background-color: #6a9c89;
+}

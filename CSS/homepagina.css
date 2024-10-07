@@ -1,0 +1,75 @@
+/*algemene instelling*/
+body {
+    background-color: #e9efec;
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*welkoms text*/
+div.welkom {
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+}
+
+/*nav bar*/
+.nav {
+    padding-bottom: 20px; /*spatie onder nav bar*/
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #c4dad2;
+    text-align: center;
+}
+a {
+    color: #16423c;
+    text-decoration: none;
+}
+li {
+    display: inline;
+    margin: 15px;
+    padding: 0px;
+}
+li.nav_act {
+    margin: 0px;
+    padding: 15px;
+    background-color: #6a9c89;
+}
+li.nav_hover:hover {
+    margin: 0px;
+    padding: 15px;
+    background-color: #6a9c89;
+}
+
+/*containers beschrijvingen*/
+.container_foto { /*container voor iedere beschrijving*/
+    display: flex; /*foto naast text krijgen*/
+    padding-bottom: 50px;
+}
+.foto_links{
+    margin: 0px;
+    padding: 0px;
+    padding-left:30px; /*spatie tss foto en text*/
+    padding-right: 500px;
+}
+.foto_rechts {
+
+}
+
+/*link naar pagina's*/
+a.link:link {
+    text-decoration: underline;
+}
+
+/*footer*/
+.footer {
+    padding-bottom: 30px; /*spatie onder nav bar*/
+}
+.ul_footer {
+    text-align: left;
+}
