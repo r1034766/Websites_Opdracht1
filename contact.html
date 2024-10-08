@@ -14,21 +14,73 @@
     <!--Navigation Bar-->
     <div class="nav">
         <ul>
-            <a href="homepagina.html"><li class="nav_act">Home</li></a> 
+            <a href="homepagina.html"><li class="nav_hover">Home</li></a> 
             <a href="curriculum_vitae.html"><li class="nav_hover">Curriculum Vitae</li></a>
             <a href="ervaringen.html"><li class="nav_hover">Ervaringen</li></a>
             <a href="interesses.html"><li class="nav_hover">Interesses</li></a>
-            <a href="contact.html"><li class="nav_hover">Contact</li></a>
+            <a href="contact.html"><li class="nav_act">Contact</li></a>
         </ul>
     </div>
 
-    <!--banner-->
-
 
     <!--Uitnodigende tekst-->
-    <div>
-        <p></p>
+    <div class="inleiding">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ut numquam sapiente nemo a officiis vero nihil quasi. Quo quod iure ullam dolorem? Rerum saepe fugiat dolor nam aliquid accusantium!</p>
     </div>
 
+    <!--Formulier-->
+    <form action="" method="post">
+    <!--Voornaam en achternaam naast elkaar-->    
+    <div class="rij">
+        <div class="veld1">
+            <div><label for="voornaam">Voornaam:</label></div>
+            <div><input type="text" name="voornaam" id="voornaam" required placeholder="Voornaam.." size="30"></div>
+        </div>
+
+        <div class="veld2">
+            <div><label for="achternaam">Achternaam:</label></div>
+            <div><input type="text" name="achternaam" id="achternaam" required placeholder="Achternaam.." size="30"></div>
+        </div>
+    </div>
+
+
+    <div class="rij">
+        <div class="veld1">
+            <div><label for="tel">Telefoon Nummer (optioneel):</label></div>
+            <div><input type="number" name="tel" id="tel" placeholder="Telefoon Nummer.."></div>
+        </div>
+        <div class="veld2">
+            <div><label for="email">E-mailadres:</label></div>
+            <div><input type="email" name="email" id="email" required placeholder="E-mailadres.." size="30"></div>
+        </div>
+    </div>
+
+    <div class="rij">
+        <div>
+            <div><label for="onderwerp">Onderwerp:</label></div>
+            <div><input type="text" name="onderwerp" id="onderwerp" placeholder="Onderwerp.." size="71"></div>
+        </div>
+    </div>
+
+    <div class="rij">
+        <div class="textvak">
+            <div><label for="tekstvak">Bericht:</label></div>
+            <div><textarea name="tekstvak" id="tekstvak" placeholder="Schrijf uw bericht hier."></textarea></div>
+        </div>
+    </div>
+        
+    <div class="rij">
+        <div>
+            <label for="feedback">Wilt u een bevestigings e-mail ontvangen?</label>
+            <input type="checkbox" name="feedback" id="feedback">
+        </div>
+    </div>
+
+        <div class="veld1">
+            <label for="verzenden"></label>
+            <input type="submit" name="verzenden" id="verzenden" value="Verzenden">
+        </div>
+
+    </form>
 </body>
 </html>

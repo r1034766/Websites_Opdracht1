@@ -37,3 +37,43 @@ li.nav_hover:hover {
     padding: 15px;
     background-color: #6a9c89;
 }
+
+/*inleiding*/
+.inleiding {
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+/*Formulier*/
+form {
+    background-color: #c4dad2;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%; /*breedte van de achtergrond tov het scherm*/
+    margin: auto; /*centeren in de container*/
+}
+.rij {
+    /*border: 1px solid black; debuggen*/
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.veld1{
+    width: 50%;
+}
+.veld2 {
+    width: 50%;
+    position: absolute;
+    right: 0px;
+}
+
+.textvak {
+    /* debuggen border: 1px solid black; */
+    width: 100%;
+}
+textarea {
+    resize: none;
+    height: 200px;
+    width: 100%;
+
+}

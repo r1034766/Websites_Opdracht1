@@ -1,3 +1,10 @@
+body, html {
+    background-color: #e9efec;
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
 h1 {
     text-align: center;
 }
@@ -36,4 +43,6 @@ li.nav_hover:hover {
 /*timeline*/
 .timeline {
     background-color: #c4dad2;
+    width: 50%;
+    margin: auto;
 }
