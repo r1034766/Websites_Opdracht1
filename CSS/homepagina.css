@@ -1,6 +1,15 @@
+/*kleuren
+
+achtergrond #F0F8FF
+accent #98C1D9
+knoppen #3D5A80
+tekst #293241
+
+*/
+
 /*algemene instelling*/
 body {
-    background-color: #e9efec;
+    background-color: #F0F8FF;
     font-family: "Montserrat", system-ui;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -23,7 +32,7 @@ ul {
     padding: 0px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #c4dad2;
+    background-color: #98C1D9;
     text-align: center;
 }
 a {
@@ -34,31 +43,74 @@ li {
     display: inline;
     margin: 15px;
     padding: 0px;
+    color: white;
+    font-weight: 600;
 }
 li.nav_act {
     margin: 0px;
     padding: 15px;
-    background-color: #6a9c89;
+    background-color:#6a9c89;
+    border-radius: 5px;
 }
 li.nav_hover:hover {
     margin: 0px;
     padding: 15px;
-    background-color: #6a9c89;
+    background-color: #3D5A80;
+    border-radius: 5px;
 }
 
 /*containers beschrijvingen*/
-.container_foto { /*container voor iedere beschrijving*/
+.container_pasfoto { /*container voor inleiding + passfoto*/
     display: flex; /*foto naast text krijgen*/
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    width: 90%;
 }
-.foto_links{
+.container_cv {
+    display: flex;
+    width: 90%;
+    padding-left: 200px;
+    padding-bottom: 70px;
+}
+.h3_rechts{
+    padding-left: 200px;
+}
+.container_erv {
+    display: flex;
+    width: 90%;
+    padding-bottom: 100px;
+}
+
+/*style voor de verschillende foto's*/
+.foto_pas {
+    width: 300px;
+    padding-right: 30px;
+}
+.foto_cv {
+    width: 200px;
+    padding-right: 30px;
+}
+.foto_erv {
+    width: 400px;
+    padding-right: 30px;
+}
+.foto_int {
+    width: 300px;
+    opacity: 80%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.foto_contact {
+    
+}
+
+/*alinea uitlijning*/
+.uitlijning_links{
     margin: 0px;
     padding: 0px;
-    padding-left:30px; /*spatie tss foto en text*/
-    padding-right: 500px;
 }
-.foto_rechts {
-
+.uitlijning_rechts {
+    margin: 0px;
+    padding: 0px;
 }
 
 /*link naar pagina's*/

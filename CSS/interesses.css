@@ -1,3 +1,12 @@
+/*kleuren
+
+achtergrond #F0F8FF
+accent #98C1D9
+knoppen #3D5A80
+tekst #293241
+
+*/
+
 body, html {
     background-color: #e9efec; /*nog veranderen*/
     font-optical-sizing: auto;
@@ -26,16 +35,20 @@ li {
     display: inline;
     margin: 15px;
     padding: 0px;
+    font-weight: 600;
+    color: #16423c;
 }
 li.nav_act {
     margin: 0px;
     padding: 15px;
-    background-color: #6a9c89;
+    background-color: #98C1D9;
+    border-radius: 5px;
 }
 li.nav_hover:hover {
     margin: 0px;
     padding: 15px;
     background-color: #6a9c89;
+    border-radius: 5px;
 }
 
 h1 {

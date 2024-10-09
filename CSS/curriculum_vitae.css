@@ -1,5 +1,14 @@
+/*kleuren
+
+achtergrond #F0F8FF
+accent #98C1D9
+knoppen #3D5A80
+tekst #293241
+
+*/
+
 body, html {
-    background-color: #e9efec;
+    background-color: #F0F8FF;
     font-family: "Montserrat", system-ui;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -17,7 +26,7 @@ ul {
     padding: 0px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #c4dad2;
+    background-color: #98C1D9;
     text-align: center;
 }
 a {
@@ -28,16 +37,19 @@ li {
     display: inline;
     margin: 15px;
     padding: 0px;
+    color: white;
 }
 li.nav_act {
     margin: 0px;
     padding: 15px;
     background-color: #6a9c89;
+    border-radius: 5px;
 }
 li.nav_hover:hover {
     margin: 0px;
     padding: 15px;
-    background-color: #6a9c89;
+    background-color: #3D5A80;
+    border-radius: 5px;
 }
 
 /*timeline*/
