@@ -57,15 +57,69 @@ h1 {
 
 .banner {
     max-width: 100%;
+    height: 450px;
+    width: 100%;
     opacity: 80%;
+    padding-bottom: 50px;
 }
 
 /*skien*/
-
-/*.ski {
+.container_ski {
+    padding-bottom: 100px;
+}
+.ski {
     display: flex;
-}*/
+}
 .apres_ski {
-    max-width: 100%;
+    opacity: 80%;
     width: 200px;
+    padding-left: 30px;
+}
+
+/*gamen*/
+.container_arma {
+    display: flex;
+    padding-bottom: 50px;
+}
+.foto_arma {
+    width: 400px;
+}
+.foto_bannerlord {
+    width: 400px;
+}
+.foto_rimworld {
+    width: 400px;
+}
+
+
+/*knop "naar boven"*/
+.top_container {
+    text-align: center;
+    padding: 50px;
+}
+.top {
+    padding: 10px;
+    background-color: #98C1D9;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+.top:hover {
+    background-color: #3D5A80;
+    color: white;
+    font-size: large;
+}
+
+/*footer*/
+.footer {
+    padding-top: 50px; 
+    padding-bottom: 30px;/*spatie onder nav bar*/
+}
+.ul_footer {
+    text-align: center
+}
+
+/*contactgegevens*/
+table {
+    text-align: left;
 }

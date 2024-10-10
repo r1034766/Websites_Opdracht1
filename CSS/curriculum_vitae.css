@@ -58,3 +58,34 @@ li.nav_hover:hover {
     width: 50%;
     margin: auto;
 }
+
+/*knop "naar boven"*/
+.top_container {
+    text-align: center;
+    padding: 50px;
+}
+.top {
+    padding: 10px;
+    background-color: #98C1D9;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+.top:hover {
+    background-color: #3D5A80;
+    color: white;
+    font-size: large;
+}
+
+/*footer*/
+.footer {
+    padding-top: 50px; 
+    padding-bottom: 30px;/*spatie onder nav bar*/
+}
+.ul_footer {
+    text-align: center
+}
+
+table {
+    text-align: left;
+}
