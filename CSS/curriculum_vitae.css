@@ -17,6 +17,9 @@ body, html {
 h1 {
     text-align: center;
 }
+
+
+
 /*nav bar*/
 .nav {
     padding-bottom: 20px; /*spatie onder nav bar*/
@@ -52,12 +55,98 @@ li.nav_hover:hover {
     border-radius: 5px;
 }
 
+
+
 /*timeline*/
+
 .timeline {
     background-color: #c4dad2;
     width: 50%;
     margin: auto;
 }
+
+
+
+/*beschrijvingen*/
+#beltec {
+    padding-bottom: 50px;
+}
+.container_beltec {         /*vakantiewerk*/
+    display: flex;
+    width: 90%;
+
+}
+.foto_beltec {
+    width: 200px;
+    padding-left: 30px;
+}
+
+#em {
+    padding-bottom: 50px;
+}
+.container_vti {            /*midelbaar onderwijs*/
+    display: flex;
+    width: 90%;
+}
+.foto_vti {
+    width: 200px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.container_plantijn {       /*Bachelor*/
+    display: flex;
+    width: 90%;
+}
+
+.p_plantijn {
+    padding-top: 100px;
+}
+
+.container_siemens {        /*Siemens*/
+    display: flex;
+    width: 90%;
+    padding-bottom: 50px;
+}
+.foto_siemens {
+    width: 300px;
+    padding-right: 30px;
+}
+
+.container_maes {           /*Maes*/
+    display: flex;
+    width: 90%;
+    padding-bottom: 50px;
+}
+.foto_maes {
+    width: 300px;
+    padding-left: 30px;
+}
+
+.container_daf {            /*DAF*/
+    display: flex;
+    width: 90%;
+    padding-bottom: 50px;
+}
+.foto_daf {
+    width: 300px;
+    padding-right: 30px;
+}
+
+#zelfst {
+    padding-bottom: 50px;
+}
+.container_zelfst {
+    display: flex;
+    width: 90%;
+    padding-bottom: 50px;
+}
+.foto_zelfst {
+    width: 200px;
+    padding-left: 30px;
+}
+
+
 
 /*knop "naar boven"*/
 .top_container {
@@ -76,6 +165,8 @@ li.nav_hover:hover {
     color: white;
     font-size: large;
 }
+
+
 
 /*footer*/
 .footer {
