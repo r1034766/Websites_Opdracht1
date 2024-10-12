@@ -36,6 +36,7 @@ li {
     margin: 15px;
     padding: 0px;
     color: white;
+    font-weight: 600;
 }
 li.nav_act {
     margin: 0px;

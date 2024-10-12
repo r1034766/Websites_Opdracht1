@@ -7,18 +7,21 @@ tekst #293241
 
 */
 
-body, html {
+/*algemene instelling*/
+body {
     background-color: #F0F8FF;
     font-family: "Montserrat", system-ui;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
 }
-h1 {
+
+/*welkoms text*/
+div.welkom {
     text-align: center;
+    padding: 5px;
+    font-weight: 600;
 }
-
-
 
 /*nav bar*/
 .nav {
@@ -46,7 +49,7 @@ li {
 li.nav_act {
     margin: 0px;
     padding: 15px;
-    background-color: #6a9c89;
+    background-color:#6a9c89;
     border-radius: 5px;
 }
 li.nav_hover:hover {
@@ -56,103 +59,74 @@ li.nav_hover:hover {
     border-radius: 5px;
 }
 
-
-
-/*timeline*/
-
-.timeline {
-    background-color: #c4dad2;
-    width: 50%;
-    margin: auto;
-}
-
-
-
-/*beschrijvingen*/
-#beltec {
-    padding-bottom: 50px;
-}
-.container_beltec {         /*vakantiewerk*/
-    display: flex;
-    width: 90%;
-
-}
-.foto_beltec {
-    width: 200px;
-    padding-left: 30px;
-}
-
-#em {
-    padding-bottom: 50px;
-}
-.container_vti {            /*midelbaar onderwijs*/
-    display: flex;
+/*containers beschrijvingen*/
+.container_pasfoto { /*container voor inleiding + passfoto*/
+    display: flex; /*foto naast text krijgen*/
+    padding-bottom: 100px;
     width: 90%;
 }
-.foto_vti {
+.container_cv {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: 0;
+    padding-bottom: 90px;
+}
+.h3_rechts{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: 0;
+}
+.container_erv {
+    display: flex;
+    width: 90%;
+    padding-bottom: 100px;
+}
+
+/*style voor de verschillende foto's*/
+.foto_pas {
+    width: 400px;
+    padding-right: 30px;
+}
+.foto_cv {
     width: 200px;
     padding-right: 30px;
-    padding-top: 25px;
 }
-
-.container_plantijn {       /*Bachelor*/
-    display: flex;
-    width: 90%;
+.foto_erv {
+    width: 400px;
+    padding-right: 30px;
 }
-
-.p_plantijn {
-    padding-top: 100px;
-}
-
-.container_siemens {        /*Siemens*/
-    display: flex;
-    width: 90%;
-    padding-bottom: 50px;
-}
-.foto_siemens {
+.foto_int {
     width: 300px;
+    opacity: 80%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.foto_contact {
+    width: 250px;
     padding-right: 30px;
 }
 
-.container_maes {           /*Maes*/
-    display: flex;
-    width: 90%;
-    padding-bottom: 50px;
+/*alinea uitlijning*/
+.uitlijning_links{
+    margin: 0px;
+    padding: 0px;
 }
-.foto_maes {
-    width: 300px;
-    padding-left: 30px;
-}
-
-.container_daf {            /*DAF*/
-    display: flex;
-    width: 90%;
-    padding-bottom: 50px;
-}
-.foto_daf {
-    width: 300px;
-    padding-right: 30px;
+.uitlijning_rechts {
+    margin: 0px;
+    padding: 0px;
 }
 
-#zelfst {
-    padding-bottom: 50px;
+/*link naar pagina's*/
+a.link:link {
+    text-decoration: underline;
 }
-.container_zelfst {
-    display: flex;
-    width: 90%;
-    padding-bottom: 50px;
-}
-.foto_zelfst {
-    width: 200px;
-    padding-left: 30px;
-}
-
-
 
 /*knop "naar boven"*/
 .top_container {
     text-align: center;
-    padding: 50px;
+
 }
 .top {
     padding: 10px;
@@ -168,7 +142,6 @@ li.nav_hover:hover {
 }
 
 
-
 /*footer*/
 .footer {
     padding-top: 50px; 
@@ -178,6 +151,7 @@ li.nav_hover:hover {
     text-align: center
 }
 
+/*tabel met contactgegevens*/
 table {
-    text-align: left;
+    text-align: left; 
 }
