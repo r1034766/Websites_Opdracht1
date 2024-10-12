@@ -51,6 +51,10 @@ li.nav_hover:hover {
     border-radius: 5px;
 }
 
+
+h2 {
+    text-align: center;
+}
 /*inleiding*/
 .inleiding {
     margin: auto;

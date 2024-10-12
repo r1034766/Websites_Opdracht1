@@ -59,11 +59,30 @@ h1 {
 }
 
 /*div beschrijving ervaringen*/
+table {                   /*tabel*/
+    border-collapse: collapse;
+    padding-bottom: 50px;
+    margin: auto;
+}
+th {
+    border: 1px solid black;
+    padding: 10px
+}
+tr {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
 .cert {
-    padding-bottom: 10px;
+    padding-bottom: 50px;
+}
+.h2_proj {
+    padding-top: 50px;
 }
 .proj {
-    padding-top: 20px;
+
     padding-bottom: 10px;
 }
 
@@ -95,6 +114,14 @@ h1 {
 }
 
 /*contactgegevens*/
-table {
+.table_info {
     text-align: left;
+    border: none;
+    margin: 0;
+}
+.tr_info {
+    border: none;
+}
+.td_info {
+    border: none;
 }

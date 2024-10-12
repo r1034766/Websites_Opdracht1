@@ -63,11 +63,11 @@ li.nav_hover:hover {
 .container_pasfoto { /*container voor inleiding + passfoto*/
     display: flex; /*foto naast text krijgen*/
     padding-bottom: 100px;
-    width: 85%;
+    width: 90%;
 }
 .container_cv {
     display: flex;
-    width: 85%;
+    width: 90%;
     margin-left: auto;
     margin-right: 0;
     padding-bottom: 90px;
@@ -77,13 +77,13 @@ li.nav_hover:hover {
 }
 .container_erv {
     display: flex;
-    width: 85%;
+    width: 90%;
     padding-bottom: 100px;
 }
 
 /*style voor de verschillende foto's*/
 .foto_pas {
-    width: 300px;
+    width: 350px;
     padding-right: 30px;
 }
 .foto_cv {
