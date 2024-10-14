@@ -77,18 +77,21 @@ h1 {
 }
 
 /*gamen*/
-.container_arma {
-    display: flex;
-    padding-bottom: 50px;
+.container_foto {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 .foto_arma {
     width: 400px;
+    padding-bottom: 50px;
 }
 .foto_bannerlord {
-    width: 400px;
+    width: 480px;
+    padding-bottom: 50px;
 }
 .foto_rimworld {
-    width: 400px;
+    width: 590px;
+    padding-bottom: 50px;
 }
 
 
